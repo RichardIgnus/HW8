@@ -39,9 +39,9 @@ switch (selectedNumber){
 
 // Trečia užduotis
 console.log('-- Trečia užduotis --');
-if(selectedNumber === 1 || selectedNumber === 2 || selectedNumber === 3 || selectedNumber === 4){console.log("Skaičius žemas");}
+if(selectedNumber >= 1 && selectedNumber <= 4){console.log("Skaičius žemas");}
     else if (selectedNumber === 5 || selectedNumber === 6) {console.log("Skaičius vidutinis");} 
         else if(selectedNumber === 7) { console.log("Skaičius aukščiau vidurkio")}
-            else if(selectedNumber === 8 || selectedNumber === 9 || selectedNumber === 10) {console.log("Skaičius aukštas")}
+            else if(selectedNumber >= 8 && selectedNumber <= 10) {console.log("Skaičius aukštas")}
                 else console.log("Įveskite skaičių nuo 1 - 10");
 
